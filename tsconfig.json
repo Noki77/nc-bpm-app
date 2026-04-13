@@ -5,9 +5,9 @@
       "es2015.promise",
       "es6"
     ],
-    "module": "ESNext",
+    "module": "es2020",
     "moduleResolution": "Bundler",
-    "target": "ESNext",
+    "target": "ES6",
     "strictNullChecks": true,
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
