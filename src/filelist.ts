@@ -25,9 +25,9 @@ import type { IFileAction } from '@nextcloud/files';
 import { addNewFileMenuEntry, DefaultType, getNavigation, registerFileAction } from '@nextcloud/files';
 import './filelist.scss';
 
-const bpmnicon = require('svg-inline-loader!../img/icon-filetypes_bpmn.svg');
-const dmnicon = require('svg-inline-loader!../img/icon-filetypes_dmn.svg');
-const cmmnicon = require('svg-inline-loader!../img/icon-filetypes_cmmn.svg');
+const bpmnicon = require('../img/icon-filetypes_bpmn.svg');
+const dmnicon = require('../img/icon-filetypes_dmn.svg');
+const cmmnicon = require('../img/icon-filetypes_cmmn.svg');
 
 function bootstrapFileShare() {
 	//called once on page load
